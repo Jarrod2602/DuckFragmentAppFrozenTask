@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffd45c"
-    tools:context=".FirstFragment">
-
+    tools:context=".ThirdFragment">
 
     <ImageView
-        android:id="@+id/imgDuckFeed"
+        android:id="@+id/imgDuckBath"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        tools:src="@drawable/duck_feed" />
+        tools:src="@drawable/duck_bath" />
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView4"
@@ -22,12 +20,12 @@
         android:layout_height="158dp" />
 
     <TextView
-        android:id="@+id/lblMessageFeed"
+        android:id="@+id/lblMessageBath"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:text="Yum!"
+        android:text="I feel cleaner!"
         android:visibility="invisible"/>
 </FrameLayout>

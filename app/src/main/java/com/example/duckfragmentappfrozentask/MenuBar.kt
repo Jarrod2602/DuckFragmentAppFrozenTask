@@ -10,6 +10,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 private val Frag1 = FirstFragment()
 private val Frag2 = SecondFragment()
+private val Frag3 = ThirdFragment()
 
 class MenuBar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,6 +30,7 @@ class MenuBar : AppCompatActivity() {
             {
                 R.id.ic_feed->replaceFrag(Frag1)
                 R.id.ic_play->replaceFrag(Frag2)
+                R.id.ic_bath->replaceFrag(Frag3)
             }
             true
         }
